@@ -1,6 +1,6 @@
 
 *{
-  margin: 0px;
+
   padding: 0px;
 }
 header{
@@ -13,9 +13,7 @@ body{
 .top-sec{
   background-image: url('images/bg-hero-desktop.svg');
 }
-.logo-container{
-  display: flex;
-}
+
 .first-button{
   align-content: flex-end;
 }
@@ -23,11 +21,8 @@ body{
   max-width: 100%;
   height: auto;
 }
-.top-container{
-  display: flex;
-  flex-direction: row;
-  width: 50%;
-}
+
+
 .button{
   padding: 13px 60px 13px 60px;
   background-color: hsl(322, 100%, 66%);
@@ -38,10 +33,19 @@ body{
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
   margin-top: 25px;
 }
+.image1{
+  height:600px;
+  width:690px;
+}
 
-
-
-
+.logo-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+.top-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
 
 
 footer{
